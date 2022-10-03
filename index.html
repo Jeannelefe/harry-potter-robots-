@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="harrypotter.js"></script>
+    <script src="iframebattlefx.js"></script>
+    <link rel="stylesheet" href="harrypotter.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+	
+    <div id="harry">
+      <img src="HP.png" />
+    </div>
+
+    <div id="joystick">
+      <button onclick="move(`UP`)">Up</button>
+      <button onclick="move(`DOWN`)">Down</button>
+      <button onclick="move(`LEFT`)">Left</button>
+      <button onclick="move(`RIGHT`)">Right</button>
+    </div>
+
+    <div id="active">
+      <input id="joystick-status" type="checkbox" checked="yes" />
+      <label>Joystick activé</label>
+    </div>
+  </body>
+</html>

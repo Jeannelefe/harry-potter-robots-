@@ -1,0 +1,59 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+}
+
+
+
+
+#harry {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+
+#joystick{
+  display: flex;
+  justify-content: flex-end;
+  gap:  5px;
+}
+
+
+#joystick button{
+  border-color: red;
+  padding: 30px;
+  background-color: red;
+  
+}
+
+#active{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+
+
+@media screen and (max-width: 700px){
+
+  #joystick{
+    display: none;
+}
+
+    #active{
+    display:  none; 
+  }
+
+  #harry{
+    position:  inherit;
+   display: flex;
+   justify-content: center;
+   align-items:  center;
+   width:  100%;
+   height: 100%;
+  }
+
+}
+
