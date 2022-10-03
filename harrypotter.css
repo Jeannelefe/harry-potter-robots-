@@ -5,12 +5,26 @@
 }
 
 
+html,body{
+  width:  100%;
+  height: 100%;
+}
+
+
+html{
+  height: 100%;
+  width:  100%;
+  background-image:  url(paysage.png);
+}
 
 
 #harry {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   width:  100%;
+   height: 100%;
 }
 
 
@@ -35,7 +49,6 @@
 
 
 
-
 @media screen and (max-width: 700px){
 
   #joystick{
@@ -46,14 +59,6 @@
     display:  none; 
   }
 
-  #harry{
-    position:  inherit;
-   display: flex;
-   justify-content: center;
-   align-items:  center;
-   width:  100%;
-   height: 100%;
-  }
 
 }
 
